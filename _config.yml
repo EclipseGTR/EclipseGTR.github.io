@@ -12,11 +12,11 @@ linkedin_username: ""
 email: ""            # Optional; this will be public, so consider a separate address
 
 # ---------------------------------------------------------------
-# Hosting settings. Don't change unless you rename the repo.
-# If you rename the repo to "EclipseGTR.github.io", set baseurl to "".
+# Hosting settings. If you add a custom domain later, set url to it
+# (e.g. "https://yourname.com") and keep baseurl as "".
 # ---------------------------------------------------------------
 url: "https://eclipsegtr.github.io"
-baseurl: "/FirstRepo"
+baseurl: ""
 
 # ---------------------------------------------------------------
 # Build settings

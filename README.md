@@ -2,7 +2,7 @@
 
 My personal website: a blog and portfolio of information security projects.
 
-🌐 **Live site:** https://eclipsegtr.github.io/FirstRepo/
+🌐 **Live site:** https://eclipsegtr.github.io/
 
 ## How it works
 
@@ -38,4 +38,4 @@ gem install jekyll
 jekyll serve
 ```
 
-Then open http://localhost:4000/FirstRepo/
+Then open http://localhost:4000/

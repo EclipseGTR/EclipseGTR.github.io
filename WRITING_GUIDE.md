@@ -50,7 +50,7 @@ repo: https://github.com/EclipseGTR/phishing-analyzer   # optional
 
 A good project write-up answers: *What problem? What did I build or do? What
 did I learn?* Screenshots help a lot. Put them in `assets/img/` and embed them
-with `![Description](/FirstRepo/assets/img/file.png)`.
+with `![Description](/assets/img/file.png)`.
 
 ## Add images
 
