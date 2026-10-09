@@ -1,0 +1,16 @@
+---
+title: Home
+---
+<section class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="lead">{{ site.tagline }}. I write about security research, CTFs, home lab builds, and what I'm learning along the way.</p>
+</section>
+
+<h2>Recent posts</h2>
+{% include post-list.html posts=site.posts limit=5 %}
+<p><a href="{{ '/blog/' | relative_url }}">All posts &rarr;</a></p>
+
+<h2>Featured projects</h2>
+{% assign featured = site.projects | where: "featured", true %}
+{% include project-cards.html projects=featured %}
+<p><a href="{{ '/projects/' | relative_url }}">All projects &rarr;</a></p>

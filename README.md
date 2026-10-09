@@ -1,17 +1,41 @@
-# FirstRepo
+# Personal Security Portfolio
 
-My first GitHub repository. The project idea is still to be decided. For now
-this is a place to learn and experiment.
+My personal website: a blog and portfolio of information security projects.
 
-## What's in here
+🌐 **Live site:** https://eclipsegtr.github.io/FirstRepo/
 
-| File | What it's for |
+## How it works
+
+The site is built with [Jekyll](https://jekyllrb.com/), a tool that turns
+Markdown text files into a website, and hosted for free by
+[GitHub Pages](https://pages.github.com/). There's no server to run and no code
+to write. You edit text files, and GitHub rebuilds the site automatically.
+
+## Where things live
+
+| Path | What it is |
 | --- | --- |
-| `README.md` | This page. GitHub shows it on the repo's front page. Update it once you know what the project is. |
-| `.gitignore` | Tells Git which files to ignore, such as system junk, editor settings, and secret `.env` files. |
-| `GITHUB_BASICS.md` | A short beginner's guide to Git and GitHub. |
-| `IDEAS.md` | A scratchpad for project ideas. |
+| `_config.yml` | Site settings: your name, tagline, social links |
+| `_posts/` | Blog posts, one Markdown file per post |
+| `_projects/` | Projects, one Markdown file per project |
+| `about.md` | About page: bio, skills, certifications |
+| `assets/css/style.css` | Colors and styling |
+| `assets/img/` | Images (create this folder when you add your first one) |
+| `_layouts/`, `_includes/` | Page templates; you rarely need to touch these |
 
-## Status
+📖 See **[WRITING_GUIDE.md](WRITING_GUIDE.md)** for how to add posts and
+projects, and an **infosec publishing checklist**.
 
-🌱 Just getting started.
+New to GitHub? See [GITHUB_BASICS.md](GITHUB_BASICS.md).
+
+## Preview locally (optional)
+
+This is not required. GitHub builds the site for you. If you install Ruby,
+you can preview changes on your own computer first:
+
+```
+gem install jekyll
+jekyll serve
+```
+
+Then open http://localhost:4000/FirstRepo/
