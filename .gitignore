@@ -1,0 +1,29 @@
+# --- Operating system junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.swp
+*~
+
+# --- Secrets: never commit these! ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Common build output and dependencies ---
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- Logs ---
+*.log
