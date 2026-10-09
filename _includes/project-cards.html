@@ -1,0 +1,9 @@
+<div class="cards">
+  {% for p in include.projects %}
+  <a class="card" href="{{ p.url | relative_url }}">
+    <h3>{{ p.title }}</h3>
+    <p>{{ p.summary }}</p>
+    {% if p.tools %}<span class="tags">{% for t in p.tools %}<span class="tag">{{ t }}</span>{% endfor %}</span>{% endif %}
+  </a>
+  {% endfor %}
+</div>

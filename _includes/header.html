@@ -1,0 +1,11 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="prompt">~$</span> {{ site.title }}</a>
+    <nav>
+      {% assign here = page.url %}
+      <a href="{{ '/blog/' | relative_url }}" {% if here contains '/blog/' %}aria-current="page"{% endif %}>Blog</a>
+      <a href="{{ '/projects/' | relative_url }}" {% if here contains '/projects/' %}aria-current="page"{% endif %}>Projects</a>
+      <a href="{{ '/about/' | relative_url }}" {% if here == '/about/' %}aria-current="page"{% endif %}>About</a>
+    </nav>
+  </div>
+</header>

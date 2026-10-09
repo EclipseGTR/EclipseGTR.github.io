@@ -1,0 +1,51 @@
+# ---------------------------------------------------------------
+# Site settings: edit these first!
+# ---------------------------------------------------------------
+title: "Your Name"
+tagline: "Information Security"
+description: "Security write-ups, research notes, and projects."
+author: "Your Name"
+
+# Social / contact links (leave blank "" to hide one)
+github_username: "EclipseGTR"
+linkedin_username: ""
+email: ""            # Optional; this will be public, so consider a separate address
+
+# ---------------------------------------------------------------
+# Hosting settings. If you add a custom domain later, set url to it
+# (e.g. "https://yourname.com") and keep baseurl as "".
+# ---------------------------------------------------------------
+url: "https://eclipsegtr.github.io"
+baseurl: ""
+
+# ---------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /blog/:year/:month/:title/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "", type: projects }
+    values: { layout: project }
+  - scope: { path: "" }
+    values: { layout: default }
+
+exclude:
+  - README.md
+  - GITHUB_BASICS.md
+  - IDEAS.md
+  - WRITING_GUIDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

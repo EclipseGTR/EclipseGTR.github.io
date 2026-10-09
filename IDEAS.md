@@ -4,7 +4,7 @@ A scratchpad for possible projects. Add ideas as they come, then pick one.
 
 ## Ideas
 
-- [ ] A personal website or portfolio (simple HTML/CSS, can be hosted free with GitHub Pages)
+- [x] A personal website or portfolio (✅ chosen: an infosec portfolio with a blog)
 - [ ] A small script that automates something tedious I do often
 - [ ] A to-do list or habit-tracker app
 - [ ] A simple game (e.g. a text adventure or a browser game)
